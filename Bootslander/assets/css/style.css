@@ -164,7 +164,7 @@ h6 {
   position: absolute;
   width: 0;
   height: 2px;
-  bottom: 3px;
+  bottom: 12px;
   left: 30px;
   background-color: #1acc8d;
   visibility: hidden;
@@ -317,11 +317,11 @@ h6 {
 
 .navbar-mobile a,
 .navbar-mobile a:focus {
-  padding: 10px 20px;
+  padding: 20px 20px;
   font-size: 16px;
   color: #0205a1;
   /*-----------------changed Start ----------------*/
-  margin-bottom: 10px;
+  margin-bottom: 15px;
   /*-----------------changed end ----------------*/
   }
 
@@ -356,7 +356,7 @@ h6 {
 
 .navbar-mobile .dropdown ul a,
 .navbar-mobile .dropdown .dropdown ul a {
-  padding: 10px 20px;
+  padding: 15px 20px;
 }
 
 .navbar-mobile .dropdown ul a i,
@@ -476,7 +476,7 @@ h6 {
   #hero h2 {
     font-size: 18px;
     line-height: 24px;
-    margin-bottom: 30px;
+    margin-bottom: 40px;
   }
 }
 
@@ -688,7 +688,7 @@ section {
 .features .icon-box {
   display: flex;
   align-items: center;
-  padding: 20px;
+  padding: 15px 0 15px 15px;
   background: #f5f5ff;
   transition: ease-in-out 0.3s;
 }
@@ -696,20 +696,19 @@ section {
 .features .icon-box i {
   font-size: 32px;
   padding-right: 10px;
-  line-height: 1;
 }
 
 .features .icon-box h3 {
   font-weight: 700;
   margin: 0;
   padding: 0;
-  line-height: 1;
   font-size: 16px;
 }
 
 .features .icon-box h3 a {
   color: #010483;
   transition: ease-in-out 0.3s;
+  padding: 10px 0;
 }
 
 .features .icon-box h3 a:hover {
@@ -1071,7 +1070,7 @@ section {
 .pricing .btn-buy {
   background: #1acc8d;
   display: inline-block;
-  padding: 8px 35px 10px 35px;
+  padding: 12px 35px 12px 35px;
   border-radius: 50px;
   color: #fff;
   transition: none;
@@ -1121,7 +1120,7 @@ section {
 }
 
 .faq .faq-list li {
-  padding: 20px;
+  padding: 15px 20px;
   background: #fff;
   border-radius: 4px;
   position: relative;
@@ -1132,7 +1131,7 @@ section {
   position: relative;
   font-family: "Poppins", sans-serif;
   font-size: 16px;
-  line-height: 24px;
+  line-height: 48px;
   font-weight: 500;
   padding: 0 30px;
   outline: none;
@@ -1141,6 +1140,7 @@ section {
 
 .faq .faq-list .icon-help {
   font-size: 24px;
+  line-height: 48px;
   position: absolute;
   right: 0;
   left: 20px;
@@ -1150,6 +1150,7 @@ section {
 .faq .faq-list .icon-show,
 .faq .faq-list .icon-close {
   font-size: 24px;
+  line-height: 48px;
   position: absolute;
   right: 0;
   top: 0;
@@ -1408,10 +1409,9 @@ section {
 
 /* modified class */
 #footer .footer-top .footer-links ul li {
-  padding: 10px 0;
   display: flex;
   align-items: center;
-  margin-bottom: 10px;
+  margin-bottom: 15px;
 }
 
 #footer .footer-top .footer-links ul li:first-child {
@@ -1422,7 +1422,7 @@ section {
   color: #fff;
   transition: 0.3s;
   display: inline-block;
-  line-height: 1;
+  line-height: 48px;
 }
 
 #footer .footer-top .footer-links ul a:hover {
