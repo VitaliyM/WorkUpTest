@@ -426,10 +426,11 @@ h6 {
   font-size: 16px;
   letter-spacing: 1px;
   display: inline-block;
-  padding: 10px 30px;
+  padding: 0 30px;
   border-radius: 50px;
   transition: 0.5s;
   color: #fff;
+  line-height: 48px;
   background: #1acc8d;
 }
 
@@ -1070,7 +1071,7 @@ section {
 .pricing .btn-buy {
   background: #1acc8d;
   display: inline-block;
-  padding: 12px 35px 12px 35px;
+  padding: 0 35px 0 35px;
   border-radius: 50px;
   color: #fff;
   transition: none;
@@ -1078,6 +1079,7 @@ section {
   font-weight: 400;
   font-family: "Montserrat", sans-serif;
   font-weight: 600;
+  line-height: 48px;
   transition: 0.3s;
 }
 
@@ -1304,8 +1306,9 @@ section {
 .contact .php-email-form button[type=submit] {
   background: #1acc8d;
   border: 0;
-  padding: 10px 30px;
+  padding: 0 30px;
   color: #fff;
+  line-height: 48px;
   transition: 0.4s;
   border-radius: 50px;
 }
